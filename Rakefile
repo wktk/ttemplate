@@ -1,6 +1,6 @@
 task 'db:migrate' do
   require './models'
-  DataMapper.auto_migrate!
+  DataMapper.auto_upgrade!
 end
 
 task 'db:user_list' do

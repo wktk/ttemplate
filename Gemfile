@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'data_mapper', '~> 1.2'
+gem 'dm-postgres-adapter', '~> 1.2'
+gem 'oauth', '~> 0.4.7'
+gem 'rake', '~> 10.3'
+gem 'sinatra', '~>1.4'
+gem 'slim', '~> 2.0'
+gem 'thin', '~> 1.6'
+gem 'twitter', '~> 5.11'
